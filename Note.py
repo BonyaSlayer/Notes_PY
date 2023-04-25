@@ -24,20 +24,8 @@ class Note:
 
     @staticmethod
     def print_head():
-        print('id', gap, 'Title', gap, 'Message', gap, "Creation date", '\n')
-
-    #@staticmethod
-    #def printNotes(notes):
-        #Note.print_head()
-        #for note in notes:
-
-            #for param in note:
-                #if len(str(param)) > 15:
-                    #print(str(param)[:15] + '...', gap, end='')
-               # else:
-                    #print(str(param), gap, end='')
-            #print('\n')
-
+        print('id', gap, 'Title', gap, 'Message', gap, "Creation date", '\n')    
+        
     def __str__(self):
         return f"Id: {self.id} \n " \
                f"{self.title} \n\n" \
